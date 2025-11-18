@@ -1,0 +1,82 @@
+############################
+# macOS
+############################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*~
+
+############################
+# IntelliJ IDEA / JetBrains
+############################
+.idea/
+*.iws
+*.iml
+*.ipr
+# User-specific files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+# Sensitive or system files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries/
+# Generated files
+out/
+# JetBrains caches
+.idea/**/caches/
+.idea/**/compiler.xml
+
+############################
+# Xcode
+############################
+# Build products
+build/
+DerivedData/
+*.o
+*.LinkFileList
+*.hmap
+
+# Personal Xcode settings
+xcuserdata/
+
+# Project files that may be regenerated
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Swift PM
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+############################
+# General
+############################
+*.log
+*.tmp
+*.bak
+

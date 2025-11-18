@@ -1,0 +1,15 @@
+ktor:
+  application:
+    modules:
+      - com.litemessenger.ApplicationKt.module
+  deployment:
+    port: 8158
+
+jwt:
+  secret: "super-secret-lite-messenger"
+  issuer: "lite-messenger"
+  audience: "lite-messenger-users"
+  realm: "LiteMessenger"
+
+storage:
+  avatars: "../../storage"
